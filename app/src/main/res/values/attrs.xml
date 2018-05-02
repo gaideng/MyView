@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--电池-->
+    <declare-styleable name="BatteryView">
+        <!--电池宽度高度-->
+        <attr name="bWidth" format="dimension"/>
+        <attr name="bHeight" format="dimension"/>
+        <!--整体背景颜色-->
+        <attr name="bBackGround" format="color"/>
+        <!--电池内部颜色-->
+        <attr name="bColor" format="color"/>
+        <!--电池外部颜色-->
+        <attr name="bOutColor" format="color"/>
+        <!--电池节数-->
+        <attr name="bItem" format="integer"/>
+        <!--电池外部边框宽度-->
+        <attr name="bBorderWidth" format="dimension"/>
+        <!--电池左右内边距-->
+        <attr name="bHPadding" format="dimension"/>
+        <!--电池上下边距-->
+        <attr name="bVPadding" format="dimension"/>
+        <!--电池四角弧度-->
+        <attr name="bCorner" format="integer"/>
+        <!--电池突出部分高度-->
+        <attr name="bSmallW" format="dimension"/>
+        <!--电池突出部分宽度-->
+        <attr name="bSmallH" format="dimension"/>
+        <!--电池突出部分宽度-->
+        <attr name="bProgress" format="float"/>
+    </declare-styleable>
+
+    <!--字体加背景-->
+    <declare-styleable name="MyWapContentView">
+        <attr name="mBackground" format="color"/>
+        <attr name="mTextColor" format="color"/>
+        <attr name="mTextSize" format="dimension"/>
+        <attr name="mText" format="string"/>
+    </declare-styleable>
+    <declare-styleable name="test">
+        <attr name="android:text"/>
+        <attr name="android:textSize"/>
+        <attr name="android:textColor"/>
+        <attr name="textAttr" format="integer"/>
+    </declare-styleable>
+
+<!--自定义ImageView-->
+    <attr name="titleText" format="string"/>
+    <attr name="titleTextSize" format="dimension"/>
+    <attr name="titleColor" format="color"/>
+    <attr name="image" format="reference"/>
+    <attr name="imageScaleType">
+        <enum name="fitXY" value="0"/>
+        <enum name="center" value="1"/>
+    </attr>
+    <declare-styleable name="CustomImageView">
+        <attr name="titleText"/>
+        <attr name="titleTextSize"/>
+        <attr name="titleColor"/>
+        <attr name="image"/>
+        <attr name="imageScaleType"/>
+    </declare-styleable>
+    <!--圆环进度-->
+    <attr name="firstColor" format="color"/>
+    <attr name="secondColor" format="color"/>
+    <attr name="sleep" format="integer"/>
+    <attr name="circleWidth" format="dimension"/>
+    <declare-styleable name="MyCircle">
+        <attr name="firstColor"/>
+        <attr name="secondColor"/>
+        <attr name="sleep"/>
+        <attr name="circleWidth"/>
+    </declare-styleable>
+
+    <!--音量-->
+    <attr name="bg" format="reference"/>
+    <!--进度数量-->
+    <attr name="dotCount" format="integer"/>
+    <!--相隔距离-->
+    <attr name="splitSize" format="integer"/>
+    <declare-styleable name="CustomVolmnControlBar">
+        <attr name="firstColor"/>
+        <attr name="secondColor"/>
+        <attr name="circleWidth"/>
+        <attr name="dotCount"/>
+        <attr name="splitSize"/>
+        <attr name="bg"/>
+    </declare-styleable>
+
+    <attr name="color_no_finger_inner_circle" format="color"/>
+    <attr name="color_no_finger_outer_circle" format="color"/>
+    <attr name="color_finger_on" format="color"/>
+    <attr name="color_finger_up" format="color"/>
+    <attr name="count" format="integer"/>
+    <attr name="tryTimes" format="integer"/>
+    <!--手指解锁-->
+    <declare-styleable name="GestureLockGroup">
+        <attr name="color_no_finger_inner_circle"/>
+        <attr name="color_no_finger_outer_circle"/>
+        <attr name="color_finger_on"/>
+        <attr name="color_finger_up"/>
+        <attr name="count"/>
+        <attr name="tryTimes"/>
+    </declare-styleable>
+</resources>
