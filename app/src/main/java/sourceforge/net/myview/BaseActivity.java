@@ -67,12 +67,6 @@ public class BaseActivity extends AppCompatActivity {
 //            window.setStatusBarColor(Color.TRANSPARENT);//calculateStatusColor(Color.WHITE, (int) alphaValue)
 //        }
 
-
-//        SystemBarTintManager tintManager = new SystemBarTintManager(this);
-//        tintManager.setStatusBarTintEnabled(true);
-//        tintManager.setNavigationBarTintEnabled(true);
-//        // 自定义颜色
-//        tintManager.setTintColor(Color.parseColor("#009cff"));
     }
 
     private void initToolbar() {
